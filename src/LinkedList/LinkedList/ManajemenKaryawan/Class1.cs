@@ -109,7 +109,7 @@ public class DaftarKaryawan
         var current = Tail;
         while (current != null)
         {
-           result += $"{current.Karyawan.NomorKaryawan}; {current.Karyawan.Nama}; {current.Karyawan.Posisi}\n";
+           result += $"{current.Karyawan.NomorKaryawan}; {current.Karyawan.Nama}; {current.Karyawan.Posisi}";
             current = current.Prev;
         }
         return result;
